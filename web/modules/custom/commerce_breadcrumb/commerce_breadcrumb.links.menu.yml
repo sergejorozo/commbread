@@ -1,0 +1,5 @@
+commerce_breadcrumb.settings_form:
+  route_name: commerce_breadcrumb.settings_form
+  title: 'Commerce breadcrumb'
+  description: 'Controls settings for the module Commerce Breadcrumb'
+  parent: system.admin_config_ui

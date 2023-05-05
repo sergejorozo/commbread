@@ -1,0 +1,4 @@
+commerce_breadcrumb.settings_form_tab:
+  route_name: commerce_breadcrumb.settings_form
+  title: Settings
+  base_route: commerce_breadcrumb.settings_form

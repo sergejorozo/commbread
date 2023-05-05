@@ -1,0 +1,7 @@
+commerce_breadcrumb.settings_form:
+  path: /admin/config/user-interface/commerce-breadcrumb
+  defaults:
+    _title: 'Commerce Breadcrumb'
+    _form: \Drupal\commerce_breadcrumb\Form\CommerceBreadcrumbSettingsForm
+  requirements:
+    _permission: 'administer commerce breadcrumb'

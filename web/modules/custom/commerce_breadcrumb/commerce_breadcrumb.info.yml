@@ -1,0 +1,8 @@
+name: 'Commerce Breadcrumb'
+type: module
+description: 'Provides manage product categories in breadcrumbs.'
+package: 'Navigation'
+core_version_requirement: ^9.2 || ^10
+configure: commerce_breadcrumb.settings_form
+dependencies:
+  - drupal:commerce
