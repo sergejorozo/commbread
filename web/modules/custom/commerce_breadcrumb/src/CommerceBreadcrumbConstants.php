@@ -3,10 +3,9 @@
 namespace Drupal\commerce_breadcrumb;
 
 /**
- * CommerceBreadcrumb module's contants.
+ * CommerceBreadcrumb module's constants.
  */
-class CommerceBreadcrumbConstants
-{
+class CommerceBreadcrumbConstants {
 
   /**
    * Module's name.
@@ -39,8 +38,8 @@ class CommerceBreadcrumbConstants
   const INCLUDE_LAST_SEGMENT = 'include_last_segment';
 
   /**
-   * Flag to choose category for each product manually.
+   * First segment title.
    */
-  const INCLUDE_MANUAL_CATEGORIES = 'include_manual_categories';
+  const FIRST_SEGMENT_TITLE = 'Home';
 
 }

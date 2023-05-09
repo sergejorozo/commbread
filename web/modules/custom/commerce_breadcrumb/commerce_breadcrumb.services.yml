@@ -1,0 +1,6 @@
+services:
+  commerce_breadcrumb.breadcrumb:
+    class: Drupal\commerce_breadcrumb\CommerceBreadcrumbBuilder
+    arguments: ['@config.factory', '@request_stack', '@title_resolver', '@entity_type.manager', '@path_alias.manager']
+    tags:
+      - { name: breadcrumb_builder, priority: 1003 }
